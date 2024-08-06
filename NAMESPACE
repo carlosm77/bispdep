@@ -1,0 +1,25 @@
+import(combinat, stats,graphics,ggplot2,sp,boot,sf,grDevices,RColorBrewer,spdep,spData)
+import(methods)
+export(connectivity.map,correlogram.bi,correlogram,print.correlogram,plot.correlogram,print.correlogrambi,
+       plot.correlogrambi,geary.bi,gearybi.test,getis.cluster,localmoran.bi,moran.bi,moran.cluster,
+       moranbi.cluster,moranbi.mc,moranbi.plot,moranbi.test,moranbir.test,randomize_vector,spcorrelogram.bi,
+       print.spcorbi, plot.spcorbi)
+importFrom(combinat,permn)
+importFrom(stats,qnorm,pnorm,sd,dist,punif,lm,influence.measures,cor,na.omit)
+importFrom(graphics,locator,legend,par,symbols,abline,points,text)
+importFrom(ggplot2,ggplot,geom_density,scale_y_sqrt,geom_vline,theme_bw)
+importFrom(sp, polygons)
+importFrom(boot, boot)
+importFrom(sf,st_geometry,st_point,st_sfc,st_within,st_centroid,st_coordinates)
+importFrom(grDevices,nclass.Sturges,xy.coords)
+importFrom(RColorBrewer,brewer.pal)
+importFrom(spdep,dnearneigh,spweights.constants,localG,lag.listw,localmoran,nblag,nb2listw,Szero,chkIDs,
+           get.spChkOption)
+
+S3method(print, spcorbi)
+S3method(plot, spcorbi)
+S3method(print, correlogrambi)
+S3method(plot, correlogrambi)
+S3method(print, correlogram)
+S3method(plot, correlogram)
+           

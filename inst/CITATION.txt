@@ -1,0 +1,10 @@
+citHeader("To cite package bispdep in publications use:")
+
+
+bibentry(bibtype="Manual",
+ title = "bispdep: Statistical Tools for Bivariate Spatial Dependence Analysis.",
+ author = c(person(given="C.", family="Melo"), person(given="O.", family="Melo", email="oomelom@unal.edu.co"), person(given="S.", family="Melo", email="semelom@unal.edu.co")),
+ year = 2024,
+ url="https://CRAN.R-project.org/package=bispdep", note ="R package version 1.0-4", textVersion = paste("Melo, C., Santacruz, A., Melo, O. 2024. geospt: An R package for spatial statistics.",
+ "R package version 1.0-1")
+)
