@@ -35,9 +35,9 @@ assign("moran.bi",
 #   varY[which(is.na(varX))]<-NA
 #  lzy <- lag.listw(listw, varY, zero.policy = zero.policy, NAOK = NAOK)
    morans<-ifelse(NAOK == TRUE,(n/(wc$S0))%*%(t(scale(na.omit(varX)))%*%
-                  as.matrix(spatialreg::as_dgRMatrix_listw(listw))%*%scale(na.omit(varY)))/
+                  as.matrix(spatialreg::as.spam.listw(listw))%*%scale(na.omit(varY)))/
                   (t(scale(na.omit(varX)))%*%scale(na.omit(varX))),
-                  (n/(wc$S0))%*%(t(scale(varX))%*%as.matrix(spatialreg::as_dgRMatrix_listw(listw))
+                  (n/(wc$S0))%*%(t(scale(varX))%*%as.matrix(spatialreg::as.spam.listw(listw))
                   %*%scale(varY))/(t(scale(varX))%*%scale(varX)))
  	xx <- mean(varX, na.rm=NAOK)
  	yy <- mean(varY, na.rm=NAOK)
