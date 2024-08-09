@@ -44,7 +44,7 @@ assign("moranbi.test",
   m2y <- sum(Yc^2)/wc$n
 	m2xy <- sum((Xc^2)*(Yc^2))/wc$n
 	mxy <- sum(Xc*Yc)/wc$n
-	W <- as.matrix(spatialreg::as_dgRMatrix_listw(listw))
+	W <- as.matrix(spatialreg::as.spam.listw(listw))
 	S0 <- t(rep(1,n))%*%(W)%*%rep(1,n)
 	S02 <- S0^2
 	S3 <- t(rep(1,n))%*%(W*t(W))%*%rep(1,n)
