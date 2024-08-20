@@ -2,10 +2,10 @@ Package: bispdep
 Type: Package
 Title: Statistical Tools for Bivariate Spatial Dependence Analysis
 Version: 1.0-1
-Date: 2024-01-21
+Date: 2024-08-20
 Authors@R: c(person(given = "Carlos", 
         family = "Melo", 
-        role = c("aut", "cre"),
+        role = c("cre", "aut"),
         email = "cmelo@udistrital.edu.co",
         comment = c(ORCID = "0000-0002-5598-1913")),
 	person(given = "Oscar", 
