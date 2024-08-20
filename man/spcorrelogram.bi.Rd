@@ -47,7 +47,7 @@ if TRUE permit the weights list to be formed with zero-length weights vectors}
 }
 \references{Czaplewski, R.L., Reich, R.M. 1993. Expected value and variance of Moran's bivariate spatial autocorrelation statistic for a permutation test, Research paper RM-309, Fort Collins, CO U.S. Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station, p, 13.}
 
-\seealso{\code{\link{nblag}}, \code{\link{moran.bi}}, \code{\link[stats]{p.adjust}}}
+\seealso{\code{\link[spdep]{nblag}}, \code{\link{moran.bi}}, \code{\link[stats]{p.adjust}}}
 
 \examples{
 library(spdep)
