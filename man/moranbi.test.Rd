@@ -41,7 +41,7 @@ square of the first crude moment. The derivation of the test (Cliff and Ord, 198
 
 \references{Cliff, A. D., Ord, J. K. 1981 Spatial processes, Pion, p. 21; Bivand RS, Wong DWS 2018 Comparing implementations of global and local indicators of spatial association. TEST, 27(3), 716--748 \doi{10.1007/s11749-018-0599-x}}
 
-\seealso{\code{\link{moran}}, \code{\link{moran.mc}}, \code{\link{listw2U}}}
+\seealso{\code{\link[spdep]{moran}}, \code{\link[spdep]{moran.mc}}, \code{\link[spdep]{listw2U}}}
 
 \examples{
 library(spdep)
