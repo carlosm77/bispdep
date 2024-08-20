@@ -21,7 +21,7 @@ around a region selected by the user by clicking on the screen
 A spatial connectivity map showing the neighbors according to the weighting scheme.
 }
 
-\seealso{\code{\link{poly2nb}}, \code{\link{knn2nb}}, \code{\link{graph2nb}}}
+\seealso{\code{\link[spdep]{poly2nb}}, \code{\link[spdep]{knn2nb}}, \code{\link[spdep]{graph2nb}}}
 
 \examples{
 library(spdep)
