@@ -40,7 +40,7 @@ For hypothesis testing the sample values are compared with empirical density, an
 \section{Links}{
 Adapted from:
 \enumerate{
-   \item Spatial Autocorrelation \href{https://blogs.oregonstate.edu/geo599spatialstatistics/2016/06/08/spatial-autocorrelation-morans/}{(Moran’s I) Test}
+   \item Spatial Autocorrelation \href{https://www.paulamoraga.com/book-spatial/spatial-autocorrelation.html}{(Moran’s I) Test}
    \item Moran's I \href{https://stats.oarc.ucla.edu/r/faq/how-can-i-calculate-morans-i-in-r/}{Test}
 }
 }
