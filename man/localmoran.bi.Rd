@@ -49,7 +49,7 @@ Anselin, Luc, Ibnu Syabri, and Oleg Smirnov. 2002. “Visualizing Multivariate S
 
 }
 
-\seealso{\code{\link{localG}}}
+\seealso{\code{\link[spdep]{localG}}}
 
 \examples{
 library(spdep)
