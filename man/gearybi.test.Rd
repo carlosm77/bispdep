@@ -36,7 +36,7 @@ A list with class \code{htest} containing the following components:
 \note{The derivation of the test (Cliff and Ord, 1981, p. 18) assumes that the weights matrix is symmetric. For inherently non-symmetric matrices, such as k-nearest neighbour matrices, \code{listw2U()} can be used to make the matrix symmetric. In non-symmetric weights matrix cases, the variance of the test statistic may be negative (thanks to Franz Munoz I for a well documented bug report). Geary's C is affected by non-symmetric weights under normality much more than Moran's I. From 0.4-35, the sign of the standard deviate of C is changed to match Cliff and Ord (1973, p. 21).
 }
 
-\seealso{\code{\link{geary.bi}}, \code{\link{listw2U}}}
+\seealso{\code{\link{geary.bi}}, \code{\link[spdep]{listw2U}}}
 
 \examples{
 library(spdep)
