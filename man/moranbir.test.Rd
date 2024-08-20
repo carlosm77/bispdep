@@ -47,7 +47,7 @@ Adapted from:
 
 \references{Cliff, A. D., Ord, J. K. 1981 Spatial processes, Pion, p. 21; Bivand RS, Wong DWS 2018 Comparing implementations of global and local indicators of spatial association. TEST, 27(3), 716--748 \doi{10.1007/s11749-018-0599-x}}
 
-\seealso{\code{\link{moran.bi}}, \code{\link{moranbi.mc}}, \code{\link{listw2U}}}
+\seealso{\code{\link{moran.bi}}, \code{\link{moranbi.mc}}, \code{\link[spdep]{listw2U}}}
 
 \examples{
 library(spdep)
