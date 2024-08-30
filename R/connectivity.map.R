@@ -5,6 +5,7 @@ if (is.null(obs)) {
        p <- locator(1)
        p1 <- st_point(c(p$x,p$y))
        p1 <- st_sfc(p1)
+       st_crs(p1) <- st_crs(polygons)
        polcontain <- st_within(p1,polygons)
        myPol <- which(as.matrix(polcontain))
        myPol
